@@ -1,14 +1,31 @@
 {
-  "name": "@example/starter",
-  "version": "0.0.1",
-  "private": true,
+  "name": "astro-wordpress",
+  "version": "1.0.0",
+  "description": "[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/starter)",
+  "main": "tailwind.config.js",
+  "devDependencies": {
+    "astro": "^1.0.0-beta.42",
+    "dotenv": "^16.0.1",
+    "tailwindcss": "^3.0.24"
+  },
+	"dependencies": {
+    "@tailwindcss/typography": "^0.5.2"
+  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview"
   },
-  "devDependencies": {
-    "astro": "^1.0.0-beta.42"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinthedev/astro-wordpress-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colinthedev/astro-wordpress-demo/issues"
+  },
+  "homepage": "https://github.com/colinthedev/astro-wordpress-demo#readme"
 }
